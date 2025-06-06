@@ -6,8 +6,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "SET HOST=192.168.1.142 && vite",
-    "start": "vite preview",
+    "dev": "HOST=192.168.1.142 vite",
+    "start": "HOST=192.168.1.142 vite",
     "build": "vite build",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
